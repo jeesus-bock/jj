@@ -4,6 +4,8 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: "J&J's MAgically Epic Adventure Game",
   description: 'Suunnitelmia kasattuna yhteen',
+  base: '/jj/',
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: 'Koti', link: '/' }],
